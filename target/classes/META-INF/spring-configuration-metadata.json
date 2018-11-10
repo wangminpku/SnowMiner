@@ -1,0 +1,22 @@
+{
+  "hints": [],
+  "groups": [
+    {
+      "sourceType": "cn.edu.pku.sei.issueminer.webapp.entity.Conf",
+      "name": "",
+      "type": "cn.edu.pku.sei.issueminer.webapp.entity.Conf"
+    }
+  ],
+  "properties": [
+    {
+      "sourceType": "cn.edu.pku.sei.issueminer.webapp.entity.Conf",
+      "name": "data-dir",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "cn.edu.pku.sei.issueminer.webapp.entity.Conf",
+      "name": "graph-dir",
+      "type": "java.lang.String"
+    }
+  ]
+}

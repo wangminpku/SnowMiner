@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>IssueMiner</title>
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+
+</head>
+
+<style>
+    body{text-align:center}
+    .divcode{margin:0 auto;}
+</style>
+
+<body>
+    <h1>PKU-SEI   SnowMiner</h1>
+    <div class="divcode">
+        <form id="codequeryForm" name="codequeryForm" class="code-query" target="submitFrame" enctype="multipart/form-data">
+            <h3>Please input a code fragment</h3>
+            <textarea id="codequery" type="text" name = "codequery" style="width:1400px;height:300px;font-size:25px;font-family:Times New Roman"></textarea>
+            <br>
+            <button type="button" onclick="querySubmit()">submit</button>
+        </form>
+        <br><br>
+        <h3>Description from Issue</h3>
+        <textarea id ="test" name="description" style="width:1400px;height:300px;font-size:30px;font-family:Times New Roman"></textarea>
+
+    </div>
+    <iframe  id="submitFrame" style="display: none;width:0; height:0" name="submitFrame"  src="about:blank"></iframe>
+
+</body>
+
+</html>
+<script type="text/javascript">
+function querySubmit(){
+
+        var codequery = $("#codequery").val();
+
+        if(codequery.length == 0){
+            $("#codequery").tips({msg:"please input query code"});
+            return;
+        }
+
+        $.ajax({
+            async:false,
+            url: "./issueSearch",
+            type: "post",
+            data: {"codequery":codequery},
+            dataType: "text",
+
+            error : function(){
+                window.alert("failed");
+            },
+
+            success: function(data){
+                $("#test").html(data);
+            },
+        });
+    }
+
+</script>
