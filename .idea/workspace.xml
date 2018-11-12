@@ -84,7 +84,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/resources/static/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="450">
-              <caret line="24" column="34" lean-forward="false" selection-start-line="24" selection-start-column="34" selection-end-line="24" selection-end-column="34" />
+              <caret line="24" column="41" lean-forward="false" selection-start-line="24" selection-start-column="41" selection-end-line="24" selection-end-column="41" />
               <folding>
                 <element signature="n#style#0;n#textarea#0;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#textarea#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -602,7 +602,14 @@
       <option name="project" value="LOCAL" />
       <updated>1541996545959</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="9th commit modify the index file for testing automatic jenkins">
+      <created>1541996795446</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1541996795446</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -679,7 +686,8 @@
     <MESSAGE value="5th commit modify the index file for testing automatic jenkins" />
     <MESSAGE value="6th commit modify the index file for testing automatic jenkins" />
     <MESSAGE value="8th commit modify the index file for testing automatic jenkins" />
-    <option name="LAST_COMMIT_MESSAGE" value="8th commit modify the index file for testing automatic jenkins" />
+    <MESSAGE value="9th commit modify the index file for testing automatic jenkins" />
+    <option name="LAST_COMMIT_MESSAGE" value="9th commit modify the index file for testing automatic jenkins" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1017,7 +1025,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/resources/static/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="450">
-          <caret line="24" column="34" lean-forward="false" selection-start-line="24" selection-start-column="34" selection-end-line="24" selection-end-column="34" />
+          <caret line="24" column="41" lean-forward="false" selection-start-line="24" selection-start-column="41" selection-end-line="24" selection-end-column="41" />
           <folding>
             <element signature="n#style#0;n#textarea#0;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#textarea#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
